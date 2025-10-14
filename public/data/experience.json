@@ -1,0 +1,16 @@
+[
+  {
+    "company": "SMS Construction Company Limited",
+    "role": "Field Assistant, Electrical Engineering",
+    "period": "June 2024 - May 2025",
+    "description": "Responsible for pipework, wiring, electrical installations, and maintenance at residential and commercial sites.",
+    "images": ["/images/sms1.jpg", "/images/sms2.jpg"]
+  },
+  {
+    "company": "Alcazar Systems Limited",
+    "role": "Field Worker",
+    "period": "Feb 2025 - June 2025",
+    "description": "Configured and installed security camera networks, identified blind spots, and optimized surveillance layouts.",
+    "images": []
+  }
+]

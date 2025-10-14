@@ -1,0 +1,60 @@
+.navbar {
+  background: linear-gradient(to bottom,#C6B4FF 86%, #C6B4FF00 100%);
+  color: #0f0f11;
+  width: 100%;
+  padding: 15px 0;
+  max-height: 100px !important;
+  position: relative;
+  top: 0px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.nav-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.responsive .nav-container {
+    display: block !important;
+    margin-left: 10px auto 0;
+    text-align: center;
+}
+.responsive .nav-container div:has(img) {
+    margin: 0 auto;
+    width: 100%;
+    display: flow;
+}
+.responsive.navbar {
+    padding: 5px 0;
+    height: 100px;
+}
+
+.nav-logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #0f0f11;
+  font-weight: 500;
+}
+
+nav a.active, nav a:hover {
+  border-bottom: 2px solid #0f0f11;
+}
+img {
+    height: 60px;
+}
+img +img{
+    height: 40px;
+    margin-left: 0;
+}
+.nav-container div:has(img) {
+    float: left;
+}

@@ -1,0 +1,5 @@
+//TODOs:(DONE) make the portfolio have a little bit shade for the text sections so that titles-section look like cards
+//TODOs:(DONE) add a particles canvas background with a shade of the background
+//TODOs:(DONE) get a good txt image colorings and have it blent with Curriculum Vitae
+//TODOs:(DONE) find good font styles for the portfolio
+//TODOs:(DONE) like the apps cards, lets have the experience into cards and when the user clicks it, the loaded section has campany description then images of me working with a brief description with around six images.if no images then a discrition of the company only
