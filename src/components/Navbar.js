@@ -20,7 +20,7 @@ export default function Navbar() {
                     <NavLink to="/apps" className={({ isActive }) => (isActive ? "active" : "")}>
                         Apps
                     </NavLink>
-                    <a href="/downloads/resume.pdf" target="_blank" rel="noreferrer" >
+                    <a href="/portfolio/downloads/resume.pdf" target="_blank" rel="noreferrer" >
                         Resume
                     </a>
                 </nav>

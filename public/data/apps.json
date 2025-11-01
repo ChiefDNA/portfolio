@@ -13,10 +13,10 @@
       "Queued downloads supported during subscriptions"
     ],
     "downloads": {
-      "android": "/downloads/linked-file-downloader/linked_file_downloader.apk",
-      "windows": "/downloads/linked-file-downloader/linked_file_downloader_windows.zip"
+      "android": "/portfolio/downloads/linked-file-downloader/linked_file_downloader.apk",
+      "windows": "/portfolio/downloads/linked-file-downloader/linked_file_downloader_windows.zip"
     },
-    "notes": "Subscription users get queued downloads and ad-free experience. Builds for App Store and Play Store are in progress."
+    "notes": "Subscription users get queued downloads and ad-free experience. Builds for App Store and Play Store are in progress.(in Testing phase)"
   },
   {
     "id": 2,
