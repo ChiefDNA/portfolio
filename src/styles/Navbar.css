@@ -8,6 +8,7 @@
   top: 0px;
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
+  z-index: 100;
 }
 
 .nav-container {
@@ -47,6 +48,7 @@ nav a {
 
 nav a.active, nav a:hover {
   border-bottom: 2px solid #0f0f11;
+  font-weight: bold;
 }
 img {
     height: 60px;
