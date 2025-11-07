@@ -38,4 +38,10 @@ jobs:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           npm install -g gh-pages
-          gh-pages -d build -b gh-pages -r https://ChiefDNA@github.com/ChiefDNA/portfolio.git
+
+          # Remove the existing remote and add an authenticated one
+          git remote rm origin
+          git remote add origin https://$TOKEN@github.com/ChiefDNA/portfolio.git
+
+          # Deploy using gh-pages
+          gh-pages -d build -b gh-pages --repo https://$TOKEN@github.com/ChiefDNA/portfolio.git
