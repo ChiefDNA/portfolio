@@ -34,6 +34,8 @@ jobs:
         run: npm run build
 
       - name: Deploy to gh-pages Branch
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           npm install -g gh-pages
-          gh-pages -d build -b gh-pages
+          gh-pages -d build -b gh-pages -r https://$TOKEN@github.com/ChiefDNA/portfolio.git
