@@ -1,41 +1,34 @@
-name: Auto Deploy to GitHub Pages
+name: Auto Deploy Portfolio
 
 on:
   push:
     branches:
-      - Apps-addition # ✅ Rebuild Pages when this branch changes
-  pull_request:
-    branches:
       - Apps-addition
-  workflow_dispatch:     # ✅ Allow manual trigger
+  workflow_dispatch:
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
 
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Setup Node
+      - name: Use Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 18
-          cache: "npm"
+          cache: npm
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: npm install
 
-      - name: Build portfolio
+      - name: Build React App
         run: npm run build
 
-      - name: Deploy to gh-pages branch
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: ./dist   # ✅ change if your build output is not "dist"
-          force_orphan: true    # ensures clean gh-pages history
+      - name: Deploy to gh-pages Branch
+        run: |
+          npm install -g gh-pages
+          gh-pages -d build -b gh-pages
