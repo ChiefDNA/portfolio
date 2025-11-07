@@ -16,6 +16,11 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
+      - name: Setup Git Identity
+        run: |
+          git config --global user.name "ChiefDNA"
+          git config --global user.email "ngabiranodaniel74@gmail.com"
+
       - name: Use Node.js
         uses: actions/setup-node@v4
         with:
