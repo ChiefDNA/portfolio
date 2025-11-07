@@ -38,4 +38,4 @@ jobs:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           npm install -g gh-pages
-          gh-pages -d build -b gh-pages -r https://$TOKEN@github.com/ChiefDNA/portfolio.git
+          gh-pages -d build -b gh-pages -r https://ChiefDNA@github.com/ChiefDNA/portfolio.git
