@@ -9,12 +9,26 @@ section.home {
     height: calc(100% - 50px);;
 }
 
+canvas {
+  background-color: #ffffff00 !important;
+}
+
 .main-content::-webkit-scrollbar {
     display: none;
 }
 .home {
   position: relative;
   overflow: hidden;
+}
+
+#tsparticles,
+.particles-bg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
 }
 
 .main-content {

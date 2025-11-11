@@ -20,8 +20,9 @@ export default function Home() {
                     <li>GitHub: <a href="https://github.com/ChiefDNA" target="_blank" rel="noreferrer" className="underline">ChiefDNA</a></li>
                 </ul>
                 <div className="mt-6 space-y-3">
-                    <a href="/downloads/resume.pdf" className="block px-4 py-2 rounded bg-violet-soft text-milky-black font-semibold text-center">Download Resume (PDF)</a>
-                    <a href="/downloads/Personal Statement.pdf" className="block px-4 py-2 rounded bg-violet-soft/80 text-milky-black font-semibold text-center">Download Personal Statement (PDF)</a>
+                    <a href="/portfolio/downloads/resume.pdf" className="block px-4 py-2 rounded bg-violet-soft text-milky-black font-semibold text-center">Download Resume (PDF)</a>
+                    <br/>
+                    <a href="/portfolio/downloads/personal statement.pdf" className="block px-4 py-2 rounded bg-violet-soft/80 text-milky-black font-semibold text-center">Download Personal Statement (PDF)</a>
                 </div>
                 </div>
                 <div className="md:col-span-2">
