@@ -7,7 +7,7 @@
 
 Implement any payment/subscription server using Stripe, Paddle or the Play Store / App Store subscriptions when publishing to stores.
 
-// End of project files.
+// End of project files. Next :: 
 
 // NOTES:
 // - This starter focuses on frontend presentation; it assumes the actual downloader app logic lives inside the native apps (Flutter).
