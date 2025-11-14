@@ -1,6 +1,6 @@
 .apps-page {
   padding: 40px;
-  overflow-y: scroll;
+  overflow-y: scroll !important;
 }
 
 .cards-container {
