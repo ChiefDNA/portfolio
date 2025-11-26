@@ -1,5 +1,15 @@
 .apps-page {
-  padding: 40px;}
+  padding: 40px;
+  height: 100%;
+}
+
+.apps-page.content { 
+  overflow-y: scroll;
+}
+
+.apps-page.content::-webkit-scrollbar {
+  display: none;
+}
 
 .cards-container {
   display: grid;
@@ -50,7 +60,7 @@
 .app-detail {
   background: #fff;
   padding: 30px; 
-  overflow-y: scroll;
+  overflow-y: hidden;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
@@ -86,12 +96,15 @@
 }
 
 .back-btn {
-  background: transparent;
+  background: #fbf9f9;
   border: none;
   color: #6c63ff;
   cursor: pointer;
   font-size: 1rem;
   margin-bottom: 20px;
+  position:sticky;
+  top: 5;
+  border-radius: 6px;
 }
 
 .description ul {
