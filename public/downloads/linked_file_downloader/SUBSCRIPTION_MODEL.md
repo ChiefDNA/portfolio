@@ -1,9 +1,9 @@
 # Subscription model (notes)
 
-- Free users: required to watch a short ad per queued download (or per certain downloads) as implemented in the app.
-- Hourly ad-unlock: watch 3 ads -> downloads for 1 hour without ads (app-side session logic required).
-- Monthly subscription: small price (you choose) to remove ads and allow background queued downloads.
-- Lifetime subscription: one-time price to remove ads and unlock advanced features.
+    - Free users: required to watch a short ad per queued download (or per certain downloads) as implemented in the app.
+    - Hourly ad-unlock: watch 3 ads -> downloads for 1 hour without ads (app-side session logic required).
+    - Monthly subscription: small price (you choose) to remove ads and allow background queued downloads.
+    - Lifetime subscription: one-time price to remove ads and unlock advanced features.
 
 Implement any payment/subscription server using Stripe, Paddle or the Play Store / App Store subscriptions when publishing to stores.
 
