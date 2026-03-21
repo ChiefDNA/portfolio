@@ -4,7 +4,7 @@
     "name": "Linked File Downloader",
     "short": "Download videos, documents, images, and other files from indirect links (YouTube, Instagram, Facebook, etc.).",
     "subtitle": "Platforms",
-    "platforms": ["Android", "Windows","Ios"],
+    "platforms": ["Android", "Windows","Ios","Android-GD"],
     "description": "Linked File Downloader allows users to download media and documents from sites that don’t offer direct file links. It uses DirectLinkFlatter to generate direct URLs and FlatterDownloader to fetch them. Users can watch short ads or subscribe monthly/lifetime to skip ads. Subscriptions allow queued downloads that continue even after the active session ends.",
     "features": [
       "Supports indirect links (YouTube, Instagram, Facebook, etc.)",
@@ -14,7 +14,7 @@
     ],
     "downloads": {
       "android": "/portfolio/downloads/linked_file_downloader/linked_file_downloader.apk",
-      "android-GD": "https://drive.google.com/file/d/1R-yei35ZYI3VCk4tghzXHvZYlTOkbimr/view?usp=drive_link",
+      "android-gd": "https://drive.google.com/file/d/1R-yei35ZYI3VCk4tghzXHvZYlTOkbimr/view?usp=drive_link",
       "ios": "/portfolio/downloads/linked_file_downloader/linked_file_downloader.ipa",
       "windows": "/portfolio/downloads/linked_file_downloader/linked_file_downloader_windows.zip"
     },
