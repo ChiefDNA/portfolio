@@ -13,13 +13,35 @@
       "Queued downloads supported during subscriptions"
     ],
     "downloads": {
-      "android": "/downloads/linked-file-downloader/linked_file_downloader.apk",
-      "windows": "/downloads/linked-file-downloader/linked_file_downloader_windows.zip"
+      "android": "/portfolio/downloads/linked_file_downloader/linked_file_downloader.apk",
+      "android-GD": "https://drive.google.com/file/d/1R-yei35ZYI3VCk4tghzXHvZYlTOkbimr/view?usp=drive_link",
+      
+      "windows": "/portfolio/downloads/linked_file_downloader/linked_file_downloader_windows.zip"
     },
-    "notes": "Subscription users get queued downloads and ad-free experience. Builds for App Store and Play Store are in progress."
+    "notes": "Subscription users get queued downloads and ad-free experience. Builds for App Store and Play Store are in progress.(in Testing phase)"
   },
   {
     "id": 2,
+    "name": "OmniPdf",
+    "short": "A powerful pdf conversion tool with batch proccesing and storage conservation",
+    "subtitle": "Platforms",
+    "platforms":["Windows","Android","Privacy-policy"],
+    "description": "OmniPdf is pdf conversion tool that converts multple file types to pdf.",
+    "features":[
+      "Batch procesing of files and conversion",
+      "Surports Zipped images, CBZ, images",
+      "PDF Unlocking",
+      "Pdf compresing",
+      "Folder procesing",
+      "Structered defualt renaming for converdions"
+    ],
+    "downloads":{
+      "privacy-policy": "/portfolio/downloads/Omnipdf/OmniPDF_Privacy_Policy.md"
+    } ,
+    "notes":"In testing phase"
+  },
+  {
+    "id": 3,
     "name": "Next Project",
     "short": "In development",
     "subtitle": "Platforms",

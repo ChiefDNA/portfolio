@@ -6,7 +6,7 @@ export default function ExperienceCards() {
   const [selected, setSelected] = useState(null);
 
   useEffect(() => {
-    fetch("/data/experience.json")
+    fetch("/portfolio/data/experience.json")
       .then(res => res.json())
       .then(data => setExperiences(data))
       .catch(err => console.error(err));
