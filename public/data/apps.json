@@ -25,7 +25,7 @@
     "name": "OmniPdf",
     "short": "A powerful pdf conversion tool with batch proccesing and storage conservation",
     "subtitle": "Platforms",
-    "platforms":["Windows","Android"],
+    "platforms":["Windows","Android","Privacy-policy"],
     "description": "OmniPdf is pdf conversion tool that converts multple file types to pdf.",
     "features":[
       "Batch procesing of files and conversion",
